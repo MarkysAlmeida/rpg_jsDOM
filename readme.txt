@@ -1,3 +1,8 @@
+Link do site para testar: 
+https://markysalmeida.github.io/rpg_jsDOM/
+---------------------------------------------------------------
+
+
 Mini RPG em JavaScript
   Este projeto é um pequeno sistema de batalha RPG feito em JavaScript para treinar conceitos básicos de programação e manipulação do DOM.
 
