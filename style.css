@@ -1,0 +1,42 @@
+body{
+    font-family: Arial;
+    background:#222;
+    color:white;
+    display:flex;
+    justify-content:center;
+}
+
+.game{
+    width:600px;
+}
+
+.characters{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:20px;
+}
+
+.player, .enemy{
+    background:#333;
+    padding:15px;
+    border-radius:8px;
+    width:45%;
+}
+
+.actions{
+    margin-bottom:20px;
+}
+
+button{
+    padding:10px;
+    margin:5px;
+    cursor:pointer;
+}
+
+.log{
+    background:#111;
+    padding:10px;
+    height:200px;
+    overflow-y:auto;
+    border-radius:8px;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>RPG de Texto</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="game">
+
+<h1>⚔️ RPG de Texto</h1>
+
+<div class="characters">
+
+<div class="player">
+<h2>Jogador</h2>
+
+<p>Classe: <span id="classe">Nenhuma</span></p>
+<p>Vida: <span id="vida">0</span></p>
+<p>Ataque: <span id="ataque">0</span></p>
+
+</div>
+
+
+<div class="enemy">
+<h2>Inimigo</h2>
+
+<p>Tipo: <span id="tipoInimigo">Nenhum</span></p>
+<p>Vida: <span id="vidaInimigo">0</span></p>
+<p>Ataque: <span id="ataqueInimigo">0</span></p>
+
+</div>
+
+</div>
+
+
+<div class="actions">
+
+<h3>Escolha sua classe</h3>
+
+<button onclick="selectClass('warrior')">Guerreiro</button>
+<button onclick="selectClass('mage')">Mago</button>
+
+<h3>Ações</h3>
+
+<button onclick="batalha()">Atacar</button>
+<button onclick="novoInimigo()">Novo Inimigo</button>
+
+</div>
+
+
+<div class="log">
+
+<h3>Log da batalha</h3>
+<div id="mensagens"></div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
